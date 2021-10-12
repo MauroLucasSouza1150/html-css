@@ -1,0 +1,44 @@
+@charset "UTF=8";
+
+/*
+    EM HTML USA ID , JÁ EM CSS USA # (SÓ PODE UM ELEMENTO DENTRO DE UM HTML)
+    EM HTML USA CLASS , JÁ EM CSS USA . (PODE VÁRIOS ELEMENTOS)
+*/    
+
+body {
+    background-color: rgb(134, 133, 133);
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(12, 45, 105);
+}
+
+h1#principal {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    background-color: rgb(12, 45, 105);
+    color: blanchedalmond
+}
+
+h2 {
+    color: rgb(20, 22, 22);
+}
+
+.basico {
+    color: rgb(0, 128, 38);
+    font-weight: bold;
+}
+
+.intermediario {
+    color: rgb(0, 128, 38);
+    font-weight: bold;
+}
+}
+
+.avancado {
+    color: rgb(0, 128, 38);
+    font-weight: bold;
+}
+}

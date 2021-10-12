@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: darkorange;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0px;
+
+        }
+        header {
+            background-color: bisque;
+            color: black;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 10px;
+        
+        }
+        
+        nav {
+            background-color: rgb(204, 98, 204);
+            box-shadow: 3px 3px 3px rgba(255, 0, 0, 0.233);
+        }
+        nav > a {
+            color: burlywood;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 20px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+
+        }
+        main {
+            background-color: bisque;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 35px; /* ou vc pode colocar 10px 5px 20px 10px */
+            box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.048);
+
+        }
+
+        article {
+            background-color: rgb(65, 215, 235);
+        }
+        article > aside {
+            background-color: blueviolet;
+            padding: 5px;
+        }
+        footer {
+            background-color: black;
+            color: bisque;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            background-color: aliceblue;
+            height: 100px;
+            width: 100px;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 50%;
+
+        }
+        div#bola > p {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            height: 15px;
+            margin: 30px;
+           
+        }
+    </style>
+</head>
+<body>
+    <header> <!--CABEÇALHO-->
+        <h1>Meu Site </h1>
+        <nav>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </nav>
+    </header>
+
+    <main> <!--PARTE PRINCIPAL-->
+        <section id="Assuntos">
+
+        </section>
+        <section id="Notícias do Brasil">
+            <article>
+                <h1>Atualizações</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil minima soluta, eum laboriosam, 
+                doloremque quam quos omnis atque necessitatibus, voluptatibus sint facere magnam sed? Pariatur 
+                aliquam laboriosam nisi commodi similique.</p>
+            </article>
+            <aside>
+                <p>- Artigo escrito por Pau Torres</p>
+            </aside>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+
+    <footer> <!--RODAPÉ-->
+        <p>Desevolvido pelo Curso em Vídeo</p>
+
+    </footer>
+    <div id="bola"> 
+        <p>A ;)</p> 
+    </div>
+</body>
+</html>
